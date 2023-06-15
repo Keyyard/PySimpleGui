@@ -12,7 +12,9 @@ layout = [
     [sg.Text("a = ",key="a")],
     [sg.Text("b = ",key="b")],
     [sg.Text("c = ",key="c")],
-    [sg.Text("y = ",key="y_result")]
+    [sg.Text("y = ",key="y_result")],
+    [sg.Text(text="by Trinh Minh Hieu - 11222359",justification="right",size=(50,0),font=("Arial",8))]
+
 ]
 
 window = sg.Window("PPT: Binh Phuong Toi Thieu",layout)
